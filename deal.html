@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<html>
+<head>
+    <title>Chow Poly Pomona</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="icon" href="../../favicon.ico">
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../dist/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="theme.css" rel="stylesheet">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/docs.min.js"></script>
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+
+    <style>
+        h1 {
+            letter-spacing: -3px;
+            text-align: center;
+        }
+        .jumbotron {
+            display: block;
+            text-align: center;
+        }
+        .center {
+            text-align: center;
+        }
+        .fb-share-button {
+            height: 42px;
+            width: 167px;
+        }
+    </style>
+</head>
+
+<body role="document">
+    <div id="fb-root"></div>
+    <script>
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=421429148023171&version=v2.0";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <nav class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Chow Poly Pomona</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a>
+                    </li>
+                    <li class="active"><a href="deal.html">Today's Deal</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">My Orders<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="orders.html">Past Orders</a>
+                            </li>
+                            <li><a href="orders.html">Current Orders</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="about.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container theme-showcase" role="main">
+        <div class="jumbotron">
+            <h1>Deal of the Day</h1>
+            <p>Cha for Tea Boba</p>
+        </div>
+        <div class="col-lg-6 center">
+            <img class="featurette-image img-circle img-responsive" src="img/deal.jpg">
+        </div>
+        <div class="col-lg-6 center">
+            <h2>Cha for Tea Boba</h2>
+            <p class="lead">Group up with friends to receive the ultimate discount. Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellusac cursus commodo.</p>
+            <p>Receive an additional discount if 20 people order this deal. Let your friends know and spread the word!</p>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                    <span class="sr-only">60% Complete</span>
+                </div>
+            </div>
+            <div class="alert alert-danger" role="alert">
+                <strong>Almost there!</strong>
+                <br>You need 18 more people in order to receive a
+                <strong>15%</strong> discount.
+            </div>
+            <div class="page-header">
+                <a type="button" class="btn btn-lg btn-info" href="Order.html">Submit an Order</a>
+                <div class="fb-share-button" data-href="http://192.30.32.125/Deal.html" data-layout="button"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
