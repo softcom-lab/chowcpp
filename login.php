@@ -131,7 +131,7 @@ if (isset($_REQUEST['Submit']))
 	   if($num_rows>0)
 	   {
 
-echo "<script type='text/javascript'>window.location.href = 'Deal.html';</script>";
+echo "<script type='text/javascript'>window.location.href = 'deal.html';</script>";
 exit();
         }
 	    else
